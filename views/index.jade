@@ -373,7 +373,7 @@ block script
           }else{
             iframe_src = 'https://docs.google.com/spreadsheets/d/'+csv_api_source_id+'/edit';
           };
-          $("title").text("編輯 | "+current_foldr_name+" | index");
+          $("title").text("編輯 | "+current_foldr_name+" | hackfoldr");
           $("#topbar .edit.table").hide();
           $("#topbar .refresh.table").show();
           $("#topbar .add.to.list").show();
@@ -517,9 +517,9 @@ block script
             // set initial page title
             if(this_row_url == iframe_src){
               if(iframe_src == "edit"){
-                $("title").text("編輯 | "+current_foldr_name+" | index");
+                $("title").text("編輯 | "+current_foldr_name+" | hackfoldr");
               }else{
-                $("title").text(this_row_title+" | "+current_foldr_name+" | index");
+                $("title").text(this_row_title+" | "+current_foldr_name+" | hackfoldr");
               }
             }
           }
@@ -833,7 +833,7 @@ block script
         $("title").text(
           $(this).contents().filter(function(){ 
             return this.nodeType == 3;
-          })[0].nodeValue+" | "+current_foldr_name+" | index"
+          })[0].nodeValue+" | "+current_foldr_name+" | hackfoldr"
         );
       }
 
@@ -876,7 +876,7 @@ block script
         // change url
         history.pushState(history_state,'', '/'+ethercalc_name+'/edit');
         // change page title
-        $("title").text("編輯 | "+current_foldr_name+" | index");
+        $("title").text("編輯 | "+current_foldr_name+" | hackfoldr");
         // inactive #toc items
         $("#toc a.link.item").removeClass("active");
       }
