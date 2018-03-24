@@ -2,7 +2,7 @@
   "name": "Rex Home",
   "short_name": "Rex Home",
   "lang": "en-US",
-  "start_url": "/",
+  "start_url": "foldr.rexlai.hk/",
   "display": "standalone",
   "theme_color": "black",
   "icons": [
