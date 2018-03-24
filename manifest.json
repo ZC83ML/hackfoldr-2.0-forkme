@@ -2,7 +2,7 @@
   "name": "Rex Home",
   "short_name": "Rex Home",
   "lang": "en-US",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "fullscreen",
   "theme_color": "black",
   "icons": [
