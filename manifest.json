@@ -3,7 +3,7 @@
   "short_name": "rexlai.hk",
   "theme_color": "#2196f3",
   "background_color": "#ffffff",
-  "display": "minimal-ui",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
   "icons": [
