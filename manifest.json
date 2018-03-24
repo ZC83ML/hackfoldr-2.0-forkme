@@ -1,0 +1,15 @@
+{
+  "name": "Rex Home",
+  "short_name": "Rex Home",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "black",
+  "icons": [
+    {
+      "src": "/assets/img/app-icon/icon-76@2x.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
+}
