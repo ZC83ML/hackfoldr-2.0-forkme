@@ -1,10 +1,11 @@
 {
   "name": "Rex Home",
   "short_name": "Rex Home",
-  "lang": "en-US",
+  "theme_color": "#2196f3",
+  "background_color": "#ffffff",
+  "display": "minimal-ui",
+  "scope": "/",
   "start_url": "/",
-  "display": "standalone",
-  "theme_color": "black",
   "icons": [
     {
       "src": "/assets/img/app-icon/icon-76@2x.png",
