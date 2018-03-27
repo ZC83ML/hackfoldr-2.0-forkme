@@ -39,3 +39,5 @@ Disallow: /assets/
 Disallow: /css/
 Disallow: /js/
 Disallow: /views/
+Disallow: /?
+Disallow: /*
