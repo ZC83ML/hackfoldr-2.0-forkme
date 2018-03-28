@@ -6,11 +6,9 @@ self.addEventListener('install', function(event) {
         '/index.html',
         '/404.html',
         '/app.js',
-        '/robots.txt',
         '/js/csv.js',
         '/js/handlebars-v1.3.0.js',
-        '/css/global.css',
-        '/css/global.css.map'        
+        '/css/global.css' 
       ]);
     })
   );
